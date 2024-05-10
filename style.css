@@ -255,7 +255,23 @@ body{
   #item-3:checked ~ .cards #song-3 img{
       box-shadow: 0px 0px 5px 0px rgba(81, 81, 81 0.47);
   }
-
+  .container_botao{
+    background: rgb(38, 38, 50);
+    color: rgb(2, 255, 255);
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    align-items: center;
+    padding:6px 30px;
+    margin-left: 50px;
+    transition: background-color 0.4s ease;
+}
+.container_botao:hover{
+  color: rgb(38, 38, 50);
+  background-color: rgb(2, 255, 255);
+}
   /* FINAL DA PAGINA*/
 footer{
   position: relative;
