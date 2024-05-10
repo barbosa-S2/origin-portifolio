@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:ital,wght@1,400;1,500&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root{
+    --branco-principal: rgb(38, 38, 50);
+    --botao-azul: rgb(2, 255, 255);
+}
+
+body{
+   font-family: poppins;
+   height: 100vh;
+   background: #eaf7ff;
+   transition: background 0.4s ease-in;
+}
+
+
+/* BARRA DE NAVEGAÇÃO*/
+.navegacao{
+   background-color: var(--branco-principal);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 80px;
+}
+.pagina{
+   display: block;
+   text-align: center;
+   align-items: center;
+   text-decoration: none;
+  
+   color:var(--botao-azul);
+   font-size: 34px;
+   font-weight: 600;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container_botao{
+    background-color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--botao-azul);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.secundario_imagem{
+    width: 100%;
+    height: 85%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0 1em;
+}
+
+.descricao_texto{
+    color: var(--branco-principal);
+}
+
+.secundario_botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container_descricao{
+    padding: 2em;
+}
+
+.fim{
+    color: #eaf7ff;
+    background-color: rgb(24, 24, 31);
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 0 50px 0 50px;
+    width: 100%;
+    text-decoration: none;
+    transition: 00.4s;
+}
+.fim:hover{
+    color: var(--botao-azul);
+}
+   </style>
+   <title>projetos</title>
+</head>
+<body>
+   <section class="navegacao">
+       <a href="https://barbosa-s2.github.io/origin-portifolio/#projetos" class="pagina">Projetos</a>
+   </section>
+   <section class="container secundario">
+    <iframe src="https://barbosa-s2.github.io/Portifolio/" alt="pagina portifolio com cores escuras" class="secundario_imagem"></iframe>
+    <div class="container_descricao">
+        <h2 class="descricao_titulo">Página Paralela de Portifolio</h2>
+        <p class="descricao_texto">Pagina feita em inglê, utilizando ferramenta de icones, pagina totalmente respnsível.</p>
+        <a href="https://barbosa-s2.github.io/Portifolio/" class="container_botao secundario_botao">Visitar Web</a>
+    </div>
+</section>
+<section class="container secundario">
+    <iframe src="https://barbosa-s2.github.io/tela-de-login/" alt="pagina de login" class="secundario_imagem"></iframe>
+    <div class="container_descricao">
+        <h2 class="descricao_titulo" >Página de Login</h2>
+        <p class="descricao_texto">Utilização de cores, projeto simulando uma pagina de login, utilizando ferramentas de programação para sua conclusão.</p>
+        <a href="https://barbosa-s2.github.io/tela-de-login/" class="container_botao secundario_botao">Visitar Web</a>
+    </div>
+</section>
+<section class="container secundario">
+    <iframe src="https://barbosa-s2.github.io/alura/" alt="pagina de Assinatura alura" class="secundario_imagem"></iframe>
+    <div class="container_descricao">
+        <h2 class="descricao_titulo">Página de Assinatura Alura </h2>
+        <p class="descricao_texto">Projeto feito em sala de aula, utilizando ferramenta Figma e VScode para conclusão do projeto.</p>
+        <a href="https://barbosa-s2.github.io/alura/" class="container_botao secundario_botao">Visitar Web</a>
+    </div>
+</section>
+<a href="https://barbosa-s2.github.io/origin-portifolio/#projetos" class="fim">©Portifolio Guilherme Barbosa Amorim</a>
+</body>
+</html>
+
